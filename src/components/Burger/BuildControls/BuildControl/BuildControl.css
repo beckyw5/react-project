@@ -1,9 +1,9 @@
-
 .buildControl {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5px 0px;
+    margin: 5px 0;
+    min-width: 320px;
 }
 
 .buildControl button {
@@ -12,20 +12,31 @@
     padding: 5px 10px;
     min-width: 80px;
     cursor: pointer;
+    outline: none;
+    background: rgba(255,255,255,0.2);
+    font-weight: bold;
+    transition: .4s;
+    margin: 0 5px;
 }
 
-.buildControl button.button--less {
+.buildControl .buttonLess {
     border: 1px solid #d00505;
 }
-.buildControl button.button--less:hover {
+.buildControl .buttonLess:hover {
     background: #d00505;
     color: #fff;
 }
 
-.buildControl button.button--more {
+.buildControl .buttonMore {
     border: 1px solid #228c1d;
 }
-.buildControl button.button--more:hover {
+.buildControl .buttonMore:hover {
     background: #228c1d;
     color: #fff;
+}
+
+label {
+    padding: 10px;
+    font-weight: bold;
+    min-width: 80px;
 }
