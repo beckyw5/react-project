@@ -1,0 +1,31 @@
+
+.buildControl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.buildControl button {
+    display: block;
+    font: inherit;
+    padding: 5px 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.buildControl button.button--less {
+    border: 1px solid #d00505;
+}
+.buildControl button.button--less:hover {
+    background: #d00505;
+    color: #fff;
+}
+
+.buildControl button.button--more {
+    border: 1px solid #228c1d;
+}
+.buildControl button.button--more:hover {
+    background: #228c1d;
+    color: #fff;
+}
