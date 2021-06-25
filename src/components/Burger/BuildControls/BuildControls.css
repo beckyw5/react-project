@@ -8,3 +8,30 @@
     margin: auto;
     padding: 10px 5px;
 }
+
+
+.orderButton {
+    display: block;
+    font: inherit;
+    padding: 5px 10px;
+    min-width: 80px;
+    cursor: pointer;
+    outline: none;
+    background: #DAD735;
+    font-weight: bold;
+    transition: .4s;
+    margin: 20px 5px 10px;
+    border: 1px solid #966909;
+    color: #966909;
+    box-shadow: 2px 2px 2px #966909;
+}
+
+.orderButton:hover {
+    background: #966909;
+    color: #DAD735;
+}
+
+.orderButton:disabled, .orderButton:disabled:hover {
+    background: #8d8a88;
+    color: #534f4f;
+}
