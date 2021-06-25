@@ -10,7 +10,7 @@
 @media (min-width: 500px) and (min-height: 401px) {
     .burger {
         width: 450px;
-        height: 400px;
+        min-height: 400px;
     }
 }
 
@@ -18,6 +18,6 @@
 @media (min-width: 1024px) and (min-height: 700px) {
     .burger {
         width: 700px;
-        height: 600px;
+        min-height: 600px;
     }
 }
