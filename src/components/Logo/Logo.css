@@ -1,4 +1,7 @@
 img {
     max-height: 30px;
     max-width: 100%;
+    background: white;
+    padding: 5px;
+    border-radius: 7px;
 }
