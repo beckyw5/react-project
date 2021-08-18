@@ -15,7 +15,7 @@
     background: #fff;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
     .drawToggle {
         display: none;
     }
