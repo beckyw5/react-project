@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 import Aux from '../../../hoc/Aux';
 import Button from '../../UI/Button/Button.js';
 
-// changing to a class component, so we can add life cycle hooks, so we can see when this is updates
 class OrderSummary extends Component {
+    componentDidUpdate() {
+        console.log('[OrderSummary] did update');
+    }
     render () {
         const ingredientSummary = Object.keys(this.props.ingredients)
             .map(igKey => {
