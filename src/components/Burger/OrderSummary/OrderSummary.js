@@ -26,7 +26,6 @@ const orderSummary = (props) => {
             <Button btnType="success" clicked={props.purchasedContinued}>CONTINUE</Button>
         </Aux>
     );
-
 };
 
 export default orderSummary;
